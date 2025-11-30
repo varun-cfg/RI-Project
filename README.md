@@ -46,7 +46,7 @@ Caveats
 - Enabling re-sampling increases runtime and the number of model forward passes per control step.
 - Thresholds are dataset- and model-dependent; tune cautiously to balance smoothness vs. performance.
 
-## Jerk calculation details
+<!-- ## Jerk calculation details
 - We compute jerk over the XYZ translation part of the action stream:
   - Let p_t be the 3D translation from action t. v_t = p_{t} - p_{t-1}, a_t = v_{t} - v_{t-1}, j_t = a_{t} - a_{t-1}.
   - Episode jerk score = mean_t ||j_t||_2.
@@ -81,7 +81,7 @@ Caveats
   - action_resample_jerk_threshold, action_resample_height,
     action_resample_xy_step_threshold, action_resample_rotvec_threshold,
     action_resample_gripper_delta_threshold.
-- With defaults (large thresholds), enabling re-sampling will rarely trigger and will increase runtime due to extra model calls.
+- With defaults (large thresholds), enabling re-sampling will rarely trigger and will increase runtime due to extra model calls. -->
 
 ## Setup and quick start
 
@@ -93,6 +93,20 @@ Prereqs
   - cd LIBERO && pip install -e .
 - Extra deps for LIBERO evaluator:
   - From repo root: pip install -r experiments/robot/libero/libero_requirements.txt
+
+You can also set up the conda envs from the yaml files we provide. Run the below for creating the env for running vlms like qwen and llama, and for running the constraint generation, summarisation, and evaluation scripts.
+```bash
+conda env create -f ri_env.yaml
+conda activate ri
+```
+
+For the openvla env, use the below:
+```bash
+conda env create -f openvla_env.yaml
+conda activate openvla
+```
+
+This env is used to run the following 2 commands:
 
 Run (constraints ON, re-sampling OFF by default)
 ```bash
@@ -119,3 +133,24 @@ Notes
 - Keep center_crop True for fine-tuned LIBERO checkpoints.
 - Resampling thresholds (large defaults to suppress triggering): action_resample_jerk_threshold, action_resample_height, action_resample_xy_step_threshold, action_resample_rotvec_threshold, action_resample_gripper_delta_threshold.
 - Jerk and CVR are evaluator-side metrics; upstream OpenVLA does not include these corrections.
+
+Please note: Use the ri env for the below commands.
+Running the offline constraint generation script:
+```bash
+export TASK_SUITE="libero_spatial"
+export CHECKPOINT="openvla/openvla-7b-finetuned-libero-spatial"
+python experiments/robot/libero/offline.py     --model_family openvla     --pretrained_checkpoint "$CHECKPOINT"     --task_suite_name "$TASK_SUITE"     --center_crop True     --num_trials_per_task 10     --run_id_note "test_run"
+```
+
+The constraints will be saved to cons.json. To summarise them, run the following:
+```bash
+python summarise_constraints.py
+```
+
+The summarised constraints will be saved to sums.json. To score the subtasks and constraints using LLama 3.2 vision instruct, run the following:
+
+```bash
+python experiments/robot/libero/eval.py     --model_family openvla     --pretrained_checkpoint "$CHECKPOINT"     --task_suite_name "$TASK_SUITE"     --center_crop True     --num_trials_per_task 10     --run_id_note "test_run"
+```
+
+Scores will be saved to scores_llama.json.
