@@ -133,6 +133,7 @@ Notes
 - Keep center_crop True for fine-tuned LIBERO checkpoints.
 - Resampling thresholds (large defaults to suppress triggering): action_resample_jerk_threshold, action_resample_height, action_resample_xy_step_threshold, action_resample_rotvec_threshold, action_resample_gripper_delta_threshold.
 - Jerk and CVR are evaluator-side metrics; upstream OpenVLA does not include these corrections.
+- The rollouts can be found in the /rollouts folder. The logs can be located at experiments/logs
 
 Please note: Use the ri env for the below commands.
 Running the offline constraint generation script:
