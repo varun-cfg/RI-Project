@@ -1,0 +1,22 @@
+Using constraint-aware policy with constraints: {'max_step_cm': 0.1, 'max_rotation_deg': 30.0, 'lock_rotation': False, 'max_tilt_deg': 30.0, 'workspace_bounds': [[0.1, 0.9], [-0.5, 0.5], [-0.1, 0.7]], 'adaptive': True}
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-13_30_16--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5133
+Repaired Jerk Score: 0.3161
+CVR: 53.03%
+Constraint Policy Stats: {'translation_clip_rate': 0.907563025210084, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.6113971185646273, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.5133
+Current task avg repaired jerk: 0.3161
+Current task avg CVR: 53.03%
+Current total success rate: 1.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...

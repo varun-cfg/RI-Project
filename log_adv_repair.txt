@@ -1,0 +1,860 @@
+nohup: ignoring input
+2025-11-25 17:49:55.539872: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-25 17:49:55.539933: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-25 17:49:55.540886: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-25 17:49:55.545277: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-25 17:49:56.113807: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2025-11-25 17:49:58.411874: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-25 17:49:58.414932: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-25 17:49:58.417271: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[*] Instantiating Pretrained VLA model
+[*] Loading in BF16 with Flash-Attention Enabled
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  4.27it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.84it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  5.04it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.09it/s]
+WARNING: No local dataset_statistics.json file found for current checkpoint.
+You can ignore this if you are loading the base VLA (i.e. not fine-tuned) checkpoint.Otherwise, you may run into errors when trying to call `predict_action()` due to an absent `unnorm_key`.
+Loaded model: <class 'transformers_modules.openvla.openvla-7b.31f090d05236101ebfc381b61c674dd4746d4ce0.modeling_prismatic.OpenVLAForActionPrediction'>
+Logging to local log file: ./experiments/logs/EVAL-libero_spatial-openvla-2025_11_25-17_50_06--test_run.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:58<08:42, 58.03s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 20%|██        | 2/10 [01:55<07:41, 57.66s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 30%|███       | 3/10 [02:21<05:03, 43.41s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 40%|████      | 4/10 [02:54<03:55, 39.26s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 50%|█████     | 5/10 [03:17<02:45, 33.12s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 60%|██████    | 6/10 [04:14<02:45, 41.43s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 70%|███████   | 7/10 [05:12<02:20, 46.91s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 80%|████████  | 8/10 [05:38<01:20, 40.06s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 90%|█████████ | 9/10 [06:04<00:35, 35.88s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 10/10 [06:28<00:00, 32.12s/it][A100%|██████████| 10/10 [06:28<00:00, 38.85s/it]
+ 20%|██        | 1/5 [06:30<26:03, 390.87s/it]
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.8542
+Repaired Jerk Score: 0.8542 (Improvement: 0.0%)
+Constraint Violation Rate: 31.82%
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=2--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 1.0293
+Repaired Jerk Score: 1.0293 (Improvement: 0.0%)
+Constraint Violation Rate: 25.00%
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=3--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.4996
+Repaired Jerk Score: 0.4996 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 3
+# successes: 1 (33.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=4--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.6833
+Repaired Jerk Score: 0.6833 (Improvement: 0.0%)
+Constraint Violation Rate: 39.84%
+# episodes completed so far: 4
+# successes: 2 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=5--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5901
+Repaired Jerk Score: 0.5901 (Improvement: 0.0%)
+Constraint Violation Rate: 19.51%
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=6--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.7341
+Repaired Jerk Score: 0.7341 (Improvement: 0.0%)
+Constraint Violation Rate: 70.91%
+# episodes completed so far: 6
+# successes: 3 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=7--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.6113
+Repaired Jerk Score: 0.6113 (Improvement: 0.0%)
+Constraint Violation Rate: 68.64%
+# episodes completed so far: 7
+# successes: 3 (42.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=8--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5103
+Repaired Jerk Score: 0.5103 (Improvement: 0.0%)
+Constraint Violation Rate: 20.21%
+# episodes completed so far: 8
+# successes: 4 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=9--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5344
+Repaired Jerk Score: 0.5344 (Improvement: 0.0%)
+Constraint Violation Rate: 28.28%
+# episodes completed so far: 9
+# successes: 5 (55.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=10--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5271
+Repaired Jerk Score: 0.5271 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 10
+# successes: 6 (60.0%)
+Current task success rate: 0.6
+Current task avg raw jerk: 0.6574
+Current task avg repaired jerk: 0.6574
+Current task avg CVR: 30.42%
+Current total success rate: 0.6
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:29<04:28, 29.80s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 20%|██        | 2/10 [01:00<04:00, 30.07s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 30%|███       | 3/10 [01:29<03:29, 29.93s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 40%|████      | 4/10 [01:58<02:57, 29.53s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 50%|█████     | 5/10 [02:31<02:33, 30.68s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 60%|██████    | 6/10 [02:58<01:57, 29.48s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 70%|███████   | 7/10 [03:32<01:33, 31.01s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 80%|████████  | 8/10 [04:03<01:01, 30.94s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 90%|█████████ | 9/10 [05:01<00:39, 39.28s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 10/10 [05:31<00:00, 36.65s/it][A100%|██████████| 10/10 [05:31<00:00, 33.19s/it]
+ 40%|████      | 2/5 [12:03<17:49, 356.61s/it]
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=11--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.5487
+Repaired Jerk Score: 0.5487 (Improvement: 0.0%)
+Constraint Violation Rate: 46.85%
+# episodes completed so far: 11
+# successes: 7 (63.6%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=12--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.5543
+Repaired Jerk Score: 0.5543 (Improvement: 0.0%)
+Constraint Violation Rate: 2.65%
+# episodes completed so far: 12
+# successes: 8 (66.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=13--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.8190
+Repaired Jerk Score: 0.8190 (Improvement: 0.0%)
+Constraint Violation Rate: 56.76%
+# episodes completed so far: 13
+# successes: 9 (69.2%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=14--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.7509
+Repaired Jerk Score: 0.7509 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 14
+# successes: 10 (71.4%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=15--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.5039
+Repaired Jerk Score: 0.5039 (Improvement: 0.0%)
+Constraint Violation Rate: 32.52%
+# episodes completed so far: 15
+# successes: 11 (73.3%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=16--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.5418
+Repaired Jerk Score: 0.5418 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 16
+# successes: 12 (75.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=17--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.6761
+Repaired Jerk Score: 0.6761 (Improvement: 0.0%)
+Constraint Violation Rate: 63.28%
+# episodes completed so far: 17
+# successes: 13 (76.5%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=18--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.6445
+Repaired Jerk Score: 0.6445 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 18
+# successes: 14 (77.8%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=19--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 1.0946
+Repaired Jerk Score: 1.0946 (Improvement: 0.0%)
+Constraint Violation Rate: 57.27%
+# episodes completed so far: 19
+# successes: 14 (73.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=20--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.5344
+Repaired Jerk Score: 0.5344 (Improvement: 0.0%)
+Constraint Violation Rate: 64.35%
+# episodes completed so far: 20
+# successes: 15 (75.0%)
+Current task success rate: 0.9
+Current task avg raw jerk: 0.6668
+Current task avg repaired jerk: 0.6668
+Current task avg CVR: 32.37%
+Current total success rate: 0.75
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:57<08:37, 57.44s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 20%|██        | 2/10 [01:48<07:10, 53.87s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 30%|███       | 3/10 [02:19<05:01, 43.06s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 40%|████      | 4/10 [02:40<03:28, 34.72s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 50%|█████     | 5/10 [03:07<02:39, 31.91s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 60%|██████    | 6/10 [04:05<02:42, 40.64s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 70%|███████   | 7/10 [04:32<01:48, 36.18s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 80%|████████  | 8/10 [04:58<01:05, 32.99s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 90%|█████████ | 9/10 [05:55<00:40, 40.61s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 10/10 [06:53<00:00, 45.78s/it][A100%|██████████| 10/10 [06:53<00:00, 41.33s/it]
+ 60%|██████    | 3/5 [18:57<12:45, 382.82s/it]
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=21--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.6229
+Repaired Jerk Score: 0.6229 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 21
+# successes: 15 (71.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=22--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6064
+Repaired Jerk Score: 0.6064 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 22
+# successes: 16 (72.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=23--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.5392
+Repaired Jerk Score: 0.5392 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 23
+# successes: 17 (73.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=24--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6052
+Repaired Jerk Score: 0.6052 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 24
+# successes: 18 (75.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=25--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.4986
+Repaired Jerk Score: 0.4986 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 25
+# successes: 19 (76.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=26--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 1.4282
+Repaired Jerk Score: 1.4282 (Improvement: 0.0%)
+Constraint Violation Rate: 37.27%
+# episodes completed so far: 26
+# successes: 19 (73.1%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=27--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.7559
+Repaired Jerk Score: 0.7559 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 27
+# successes: 20 (74.1%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=28--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.5551
+Repaired Jerk Score: 0.5551 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 28
+# successes: 21 (75.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=29--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0179
+Repaired Jerk Score: 0.0179 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 29
+# successes: 21 (72.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=30--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0988
+Repaired Jerk Score: 0.0988 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 30
+# successes: 21 (70.0%)
+Current task success rate: 0.6
+Current task avg raw jerk: 0.5728
+Current task avg repaired jerk: 0.5728
+Current task avg CVR: 3.73%
+Current total success rate: 0.7
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:22<03:26, 22.92s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 20%|██        | 2/10 [01:20<05:46, 43.32s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 30%|███       | 3/10 [01:41<03:52, 33.27s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 40%|████      | 4/10 [02:31<03:58, 39.77s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 50%|█████     | 5/10 [03:11<03:19, 39.85s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 60%|██████    | 6/10 [03:36<02:18, 34.62s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 70%|███████   | 7/10 [03:59<01:32, 30.93s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 80%|████████  | 8/10 [04:32<01:03, 31.56s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 90%|█████████ | 9/10 [05:18<00:36, 36.06s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 10/10 [05:40<00:00, 31.82s/it][A100%|██████████| 10/10 [05:40<00:00, 34.06s/it]
+ 80%|████████  | 4/5 [24:38<06:06, 366.40s/it]
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=31--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6269
+Repaired Jerk Score: 0.6269 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 31
+# successes: 22 (71.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=32--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0016
+Repaired Jerk Score: 0.0016 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 32
+# successes: 22 (68.8%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=33--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6494
+Repaired Jerk Score: 0.6494 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 33
+# successes: 23 (69.7%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=34--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.2197
+Repaired Jerk Score: 0.2197 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 34
+# successes: 24 (70.6%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=35--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.4739
+Repaired Jerk Score: 0.4739 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 35
+# successes: 25 (71.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=36--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.7189
+Repaired Jerk Score: 0.7189 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 36
+# successes: 26 (72.2%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=37--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6068
+Repaired Jerk Score: 0.6068 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 37
+# successes: 27 (73.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=38--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.4173
+Repaired Jerk Score: 0.4173 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 38
+# successes: 28 (73.7%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=39--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.8758
+Repaired Jerk Score: 0.8758 (Improvement: 0.0%)
+Constraint Violation Rate: 29.89%
+# episodes completed so far: 39
+# successes: 29 (74.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=40--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6456
+Repaired Jerk Score: 0.6456 (Improvement: 0.0%)
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 40
+# successes: 30 (75.0%)
+Current task success rate: 0.9
+Current task avg raw jerk: 0.5236
+Current task avg repaired jerk: 0.5236
+Current task avg CVR: 2.99%
+Current total success rate: 0.75
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:33<05:04, 33.84s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 20%|██        | 2/10 [01:31<06:25, 48.13s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 30%|███       | 3/10 [02:30<06:09, 52.75s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 40%|████      | 4/10 [03:28<05:29, 55.00s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 50%|█████     | 5/10 [04:10<04:10, 50.18s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 60%|██████    | 6/10 [05:08<03:31, 52.86s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 70%|███████   | 7/10 [05:43<02:21, 47.23s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 80%|████████  | 8/10 [06:16<01:24, 42.44s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 90%|█████████ | 9/10 [06:49<00:39, 39.51s/it][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 10/10 [07:23<00:00, 37.98s/it][A100%|██████████| 10/10 [07:23<00:00, 44.38s/it]
+100%|██████████| 5/5 [32:03<00:00, 394.55s/it]100%|██████████| 5/5 [32:03<00:00, 384.64s/it]
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=41--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.6342
+Repaired Jerk Score: 0.6342 (Improvement: 0.0%)
+Constraint Violation Rate: 53.17%
+# episodes completed so far: 41
+# successes: 31 (75.6%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=42--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 0.6959
+Repaired Jerk Score: 0.6959 (Improvement: 0.0%)
+Constraint Violation Rate: 61.82%
+# episodes completed so far: 42
+# successes: 31 (73.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=43--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 1.3271
+Repaired Jerk Score: 1.3271 (Improvement: 0.0%)
+Constraint Violation Rate: 83.64%
+# episodes completed so far: 43
+# successes: 31 (72.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=44--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 0.6749
+Repaired Jerk Score: 0.6749 (Improvement: 0.0%)
+Constraint Violation Rate: 82.27%
+# episodes completed so far: 44
+# successes: 31 (70.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=45--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.7172
+Repaired Jerk Score: 0.7172 (Improvement: 0.0%)
+Constraint Violation Rate: 64.74%
+# episodes completed so far: 45
+# successes: 32 (71.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=46--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 0.7239
+Repaired Jerk Score: 0.7239 (Improvement: 0.0%)
+Constraint Violation Rate: 56.36%
+# episodes completed so far: 46
+# successes: 32 (69.6%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=47--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.5106
+Repaired Jerk Score: 0.5106 (Improvement: 0.0%)
+Constraint Violation Rate: 72.18%
+# episodes completed so far: 47
+# successes: 33 (70.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=48--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.6229
+Repaired Jerk Score: 0.6229 (Improvement: 0.0%)
+Constraint Violation Rate: 64.17%
+# episodes completed so far: 48
+# successes: 34 (70.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=49--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.5484
+Repaired Jerk Score: 0.5484 (Improvement: 0.0%)
+Constraint Violation Rate: 61.79%
+# episodes completed so far: 49
+# successes: 35 (71.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_50_06--episode=50--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.4788
+Repaired Jerk Score: 0.4788 (Improvement: 0.0%)
+Constraint Violation Rate: 73.64%
+# episodes completed so far: 50
+# successes: 36 (72.0%)
+Current task success rate: 0.6
+Current task avg raw jerk: 0.6934
+Current task avg repaired jerk: 0.6934
+Current task avg CVR: 67.38%
+Current total success rate: 0.72
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 72.00%
+Average Raw Jerk Score: 0.6228
+Average Repaired Jerk Score: 0.6228 (lower is smoother)
+Jerk Improvement: 0.0%
+Average Constraint Violation Rate: 27.38%
+================================================================================
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f15238d31c0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f14d015e640>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f1523a85e40>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f1523a85e40>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f1523a85dc0>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f15238d3010>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f14d015e640>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f1523a85e40>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f1523a85e40>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f1523a85dc0>,
+	),
+	result = 0
+)

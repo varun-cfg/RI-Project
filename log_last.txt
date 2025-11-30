@@ -1,0 +1,196 @@
+nohup: ignoring input
+2025-11-30 08:46:03.834610: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-30 08:46:03.834666: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-30 08:46:03.835614: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-30 08:46:03.839980: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-30 08:46:05.145832: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2025-11-30 08:46:10.050407: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-30 08:46:10.079531: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-30 08:46:10.081881: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[*] Instantiating Pretrained VLA model
+[*] Loading in BF16 with Flash-Attention Enabled
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.13it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.80it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.22it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.99it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.37it/s]
+WARNING: No local dataset_statistics.json file found for current checkpoint.
+You can ignore this if you are loading the base VLA (i.e. not fine-tuned) checkpoint.Otherwise, you may run into errors when trying to call `predict_action()` due to an absent `unnorm_key`.
+Loaded model: <class 'transformers_modules.openvla.openvla-7b.31f090d05236101ebfc381b61c674dd4746d4ce0.modeling_prismatic.OpenVLAForActionPrediction'>
+Logging to local log file: ./experiments/logs/EVAL-libero_spatial-openvla-2025_11_30-08_46_18.txt
+Using constraint-aware policy with constraints: {'max_step_cm': 0.1, 'max_rotation_deg': 30.0, 'lock_rotation': False, 'max_tilt_deg': 30.0, 'workspace_bounds': [[0.1, 0.9], [-0.5, 0.5], [-0.1, 0.7]], 'adaptive': True}
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 1/1 [00:32<00:00, 32.77s/it][A100%|██████████| 1/1 [00:32<00:00, 32.77s/it]
+ 20%|██        | 1/5 [00:35<02:23, 35.79s/it]
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5428
+Repaired Jerk Score: 0.3334 (Improvement: 38.6%)
+CVR: 15.47%
+  Avg scaling: Trans=0.611, Rot=1.000
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.5428
+Current task avg repaired jerk: 0.3334
+Current task avg CVR: 15.47%
+Current total success rate: 1.0
+
+  0%|          | 0/1 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 1/1 [00:45<00:00, 45.91s/it][A100%|██████████| 1/1 [00:45<00:00, 45.91s/it]
+ 40%|████      | 2/5 [01:22<02:06, 42.17s/it]
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.4113
+Repaired Jerk Score: 0.2534 (Improvement: 38.4%)
+CVR: 18.66%
+  Avg scaling: Trans=0.618, Rot=1.000
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4113
+Current task avg repaired jerk: 0.2534
+Current task avg CVR: 18.66%
+Current total success rate: 1.0
+
+  0%|          | 0/1 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 1/1 [00:56<00:00, 56.12s/it][A100%|██████████| 1/1 [00:56<00:00, 56.12s/it]
+ 60%|██████    | 3/5 [02:19<01:37, 48.84s/it]
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=3--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.3735
+Repaired Jerk Score: 0.2466 (Improvement: 34.0%)
+CVR: 15.00%
+  Avg scaling: Trans=0.645, Rot=1.000
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.3735
+Current task avg repaired jerk: 0.2466
+Current task avg CVR: 15.00%
+Current total success rate: 1.0
+
+  0%|          | 0/1 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 1/1 [00:57<00:00, 57.24s/it][A100%|██████████| 1/1 [00:57<00:00, 57.24s/it]
+ 80%|████████  | 4/5 [03:17<00:52, 52.43s/it]
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=4--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: False
+  WARNING: Task completed but marked as failed - check success thresholds
+  Final EE position: [0.097 0.223 1.040]
+Raw Jerk Score: 0.2676
+Repaired Jerk Score: 0.1647 (Improvement: 38.5%)
+CVR: 15.59%
+  Avg scaling: Trans=0.622, Rot=1.000
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.2676
+Current task avg repaired jerk: 0.1647
+Current task avg CVR: 15.59%
+Current total success rate: 0.75
+
+  0%|          | 0/1 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+100%|██████████| 1/1 [00:57<00:00, 57.77s/it][A100%|██████████| 1/1 [00:57<00:00, 57.77s/it]
+100%|██████████| 5/5 [04:15<00:00, 54.60s/it]100%|██████████| 5/5 [04:15<00:00, 51.12s/it]
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=5--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+  WARNING: Task completed but marked as failed - check success thresholds
+  Final EE position: [0.088 0.061 0.977]
+Raw Jerk Score: 0.6577
+Repaired Jerk Score: 0.4109 (Improvement: 37.5%)
+CVR: 25.30%
+  Avg scaling: Trans=0.628, Rot=1.000
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.6577
+Current task avg repaired jerk: 0.4109
+Current task avg CVR: 25.30%
+Current total success rate: 0.6
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 60.00%
+Average Raw Jerk Score: 0.4506
+Average Repaired Jerk Score: 0.2818 (lower is smoother)
+Jerk Improvement: 37.5%
+Average CVR: 18.00%
+================================================================================
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f8d8ee00160>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f8d31d84340>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f8d8ef473c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f8d8ef473c0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f8d8ef47340>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f8d8edbff40>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f8d31d84340>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f8d8ef473c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f8d8ef473c0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f8d8ef47340>,
+	),
+	result = 0
+)

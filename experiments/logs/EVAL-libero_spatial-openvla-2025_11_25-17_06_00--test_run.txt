@@ -1,0 +1,297 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=2--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=3--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=4--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=5--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=6--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=7--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=8--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=9--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=10--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.0000
+Current task avg repaired jerk: 0.0000
+Current task avg CVR: 0.00%
+Current total success rate: 0.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=11--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 11
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 2...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=12--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 12
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 3...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=13--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 13
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 4...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=14--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 14
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 5...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=15--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 15
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 6...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=16--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 16
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 7...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=17--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 17
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 8...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=18--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 18
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 9...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=19--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 19
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 10...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=20--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 20
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.0000
+Current task avg repaired jerk: 0.0000
+Current task avg CVR: 0.00%
+Current total success rate: 0.0
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=21--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 21
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 2...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=22--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 22
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 3...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=23--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 23
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 4...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=24--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 24
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 5...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=25--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 25
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 6...
+Caught exception: local variable 'prompt' referenced before assignment
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-17_06_00--episode=26--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.0000
+Repaired Jerk Score: 0.0000
+Constraint Violation Rate: 0.00%
+# episodes completed so far: 26
+# successes: 0 (0.0%)

@@ -1,0 +1,287 @@
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 1.0048
+Repaired Jerk Score: 1.0048
+CVR: 49.01%
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=2--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.8753
+Repaired Jerk Score: 0.8753
+CVR: 40.33%
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=3--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.6470
+Repaired Jerk Score: 0.6470
+CVR: 27.90%
+# episodes completed so far: 3
+# successes: 1 (33.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=4--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5898
+Repaired Jerk Score: 0.5898
+CVR: 24.07%
+# episodes completed so far: 4
+# successes: 2 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=5--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.7125
+Repaired Jerk Score: 0.7125
+CVR: 32.31%
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+Current task success rate: 0.6
+Current task avg raw jerk: 0.7659
+Current task avg repaired jerk: 0.7659
+Current task avg CVR: 34.72%
+Current total success rate: 0.6
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=6--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 1.2064
+Repaired Jerk Score: 1.2064
+CVR: 54.16%
+# episodes completed so far: 6
+# successes: 3 (50.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=7--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 1.5487
+Repaired Jerk Score: 1.5487
+CVR: 68.76%
+# episodes completed so far: 7
+# successes: 3 (42.9%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=8--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.6423
+Repaired Jerk Score: 0.6423
+CVR: 30.03%
+# episodes completed so far: 8
+# successes: 4 (50.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=9--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.7689
+Repaired Jerk Score: 0.7689
+CVR: 36.44%
+# episodes completed so far: 9
+# successes: 4 (44.4%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=10--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 1.0179
+Repaired Jerk Score: 1.0179
+CVR: 44.44%
+# episodes completed so far: 10
+# successes: 4 (40.0%)
+Current task success rate: 0.2
+Current task avg raw jerk: 1.0368
+Current task avg repaired jerk: 1.0368
+Current task avg CVR: 46.77%
+Current total success rate: 0.4
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=11--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.7563
+Repaired Jerk Score: 0.7563
+CVR: 34.62%
+# episodes completed so far: 11
+# successes: 4 (36.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=12--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.7037
+Repaired Jerk Score: 0.7037
+CVR: 28.15%
+# episodes completed so far: 12
+# successes: 5 (41.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=13--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.1340
+Repaired Jerk Score: 0.1340
+CVR: 5.36%
+# episodes completed so far: 13
+# successes: 5 (38.5%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=14--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.7866
+Repaired Jerk Score: 0.7866
+CVR: 31.46%
+# episodes completed so far: 14
+# successes: 6 (42.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=15--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.5442
+Repaired Jerk Score: 0.5442
+CVR: 21.77%
+# episodes completed so far: 15
+# successes: 7 (46.7%)
+Current task success rate: 0.6
+Current task avg raw jerk: 0.5850
+Current task avg repaired jerk: 0.5850
+Current task avg CVR: 24.27%
+Current total success rate: 0.4666666666666667
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=16--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.5835
+Repaired Jerk Score: 0.5835
+CVR: 27.52%
+# episodes completed so far: 16
+# successes: 8 (50.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=17--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.7335
+Repaired Jerk Score: 0.7335
+CVR: 31.32%
+# episodes completed so far: 17
+# successes: 9 (52.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=18--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.7576
+Repaired Jerk Score: 0.7576
+CVR: 36.06%
+# episodes completed so far: 18
+# successes: 10 (55.6%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=19--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.8807
+Repaired Jerk Score: 0.8807
+CVR: 37.83%
+# episodes completed so far: 19
+# successes: 11 (57.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=20--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.3862
+Repaired Jerk Score: 0.3862
+CVR: 16.33%
+# episodes completed so far: 20
+# successes: 12 (60.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.6683
+Current task avg repaired jerk: 0.6683
+Current task avg CVR: 29.81%
+Current total success rate: 0.6
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=21--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 0.2700
+Repaired Jerk Score: 0.2700
+CVR: 19.12%
+# episodes completed so far: 21
+# successes: 12 (57.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=22--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.4875
+Repaired Jerk Score: 0.4875
+CVR: 27.41%
+# episodes completed so far: 22
+# successes: 13 (59.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=23--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.7485
+Repaired Jerk Score: 0.7485
+CVR: 38.01%
+# episodes completed so far: 23
+# successes: 14 (60.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=24--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.5232
+Repaired Jerk Score: 0.5232
+CVR: 28.96%
+# episodes completed so far: 24
+# successes: 15 (62.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-16_22_17--episode=25--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.6180
+Repaired Jerk Score: 0.6180
+CVR: 32.53%
+# episodes completed so far: 25
+# successes: 16 (64.0%)
+Current task success rate: 0.8
+Current task avg raw jerk: 0.5294
+Current task avg repaired jerk: 0.5294
+Current task avg CVR: 29.21%
+Current total success rate: 0.64
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 64.00%
+Average Raw Jerk Score: 0.7171
+Average Repaired Jerk Score: 0.7171 (lower is smoother)
+Jerk Improvement: 0.0%
+Average CVR: 32.96%
+================================================================================

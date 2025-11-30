@@ -1,0 +1,198 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.8762
+Repaired Jerk Score: 0.8762
+Simple CVR (Tilt only): 26.36%
+Comprehensive CVR: 26.36%
+Violation Breakdown: {'tilt': 58, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.8762
+Current task avg repaired jerk: 0.8762
+Current task avg Simple CVR: 26.36%
+Current task avg Comprehensive CVR: 26.36%
+Current total success rate: 0.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.4205
+Repaired Jerk Score: 0.4205
+Simple CVR (Tilt only): 65.38%
+Comprehensive CVR: 65.38%
+Violation Breakdown: {'tilt': 85, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4205
+Current task avg repaired jerk: 0.4205
+Current task avg Simple CVR: 65.38%
+Current task avg Comprehensive CVR: 65.38%
+Current total success rate: 0.5
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=3--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.7237
+Repaired Jerk Score: 0.7237
+Simple CVR (Tilt only): 0.00%
+Comprehensive CVR: 0.00%
+Violation Breakdown: {'tilt': 0, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 3
+# successes: 1 (33.3%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.7237
+Current task avg repaired jerk: 0.7237
+Current task avg Simple CVR: 0.00%
+Current task avg Comprehensive CVR: 0.00%
+Current total success rate: 0.3333333333333333
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=4--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.6269
+Repaired Jerk Score: 0.6269
+Simple CVR (Tilt only): 0.00%
+Comprehensive CVR: 0.00%
+Violation Breakdown: {'tilt': 0, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 4
+# successes: 2 (50.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.6269
+Current task avg repaired jerk: 0.6269
+Current task avg Simple CVR: 0.00%
+Current task avg Comprehensive CVR: 0.00%
+Current total success rate: 0.5
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=5--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.6342
+Repaired Jerk Score: 0.6342
+Simple CVR (Tilt only): 53.17%
+Comprehensive CVR: 53.17%
+Violation Breakdown: {'tilt': 67, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.6342
+Current task avg repaired jerk: 0.6342
+Current task avg Simple CVR: 53.17%
+Current task avg Comprehensive CVR: 53.17%
+Current total success rate: 0.6
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=6--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+Raw Jerk Score: 0.6521
+Repaired Jerk Score: 0.6521
+Simple CVR (Tilt only): 50.57%
+Comprehensive CVR: 50.57%
+Violation Breakdown: {'tilt': 44, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 6
+# successes: 4 (66.7%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.6521
+Current task avg repaired jerk: 0.6521
+Current task avg Simple CVR: 50.57%
+Current task avg Comprehensive CVR: 50.57%
+Current total success rate: 0.6666666666666666
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=7--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: False
+Raw Jerk Score: 0.7645
+Repaired Jerk Score: 0.7645
+Simple CVR (Tilt only): 55.00%
+Comprehensive CVR: 55.00%
+Violation Breakdown: {'tilt': 121, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 7
+# successes: 4 (57.1%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.7645
+Current task avg repaired jerk: 0.7645
+Current task avg Simple CVR: 55.00%
+Current task avg Comprehensive CVR: 55.00%
+Current total success rate: 0.5714285714285714
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=8--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: False
+Raw Jerk Score: 0.7096
+Repaired Jerk Score: 0.7096
+Simple CVR (Tilt only): 46.36%
+Comprehensive CVR: 46.36%
+Violation Breakdown: {'tilt': 102, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 8
+# successes: 4 (50.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.7096
+Current task avg repaired jerk: 0.7096
+Current task avg Simple CVR: 46.36%
+Current task avg Comprehensive CVR: 46.36%
+Current total success rate: 0.5
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=9--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+Raw Jerk Score: 0.5714
+Repaired Jerk Score: 0.5714
+Simple CVR (Tilt only): 30.19%
+Comprehensive CVR: 30.19%
+Violation Breakdown: {'tilt': 32, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 9
+# successes: 5 (55.6%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.5714
+Current task avg repaired jerk: 0.5714
+Current task avg Simple CVR: 30.19%
+Current task avg Comprehensive CVR: 30.19%
+Current total success rate: 0.5555555555555556
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-11_36_25--episode=10--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: False
+Raw Jerk Score: 0.4388
+Repaired Jerk Score: 0.4388
+Simple CVR (Tilt only): 0.00%
+Comprehensive CVR: 0.00%
+Violation Breakdown: {'tilt': 0, 'smoothness': 0, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 10
+# successes: 5 (50.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.4388
+Current task avg repaired jerk: 0.4388
+Current task avg Simple CVR: 0.00%
+Current task avg Comprehensive CVR: 0.00%
+Current total success rate: 0.5
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 50.00%
+Average Raw Jerk Score: 0.6418
+Average Repaired Jerk Score: 0.6418 (lower is smoother)
+Jerk Improvement: 0.0%
+Average Simple CVR (Tilt only): 32.70%
+Average Comprehensive CVR: 32.70%
+--------------------------------------------------------------------------------
+COMPREHENSIVE VIOLATION BREAKDOWN:
+  Tilt Violations: 50.9
+  Smoothness Violations: 0.0
+  Impact Violations: 0.0
+  Safety Violations: 0.0
+================================================================================

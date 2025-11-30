@@ -1,0 +1,70 @@
+2025-11-27 06:28:07.697203: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-27 06:28:07.697270: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-27 06:28:07.698235: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-27 06:28:07.702635: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-27 06:28:08.261144: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2025-11-27 06:28:10.502338: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-27 06:28:10.507394: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-27 06:28:10.509749: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+Traceback (most recent call last):
+  File "/home/vijval22569/ri_project/openvla/experiments/robot/libero/run_libero_eval.py", line 40, in <module>
+    from experiments.robot.libero.libero_utils import (
+  File "/home/vijval22569/ri_project/openvla/experiments/robot/libero/libero_utils.py", line 12, in <module>
+    from experiments.robot.robot_utils import (
+  File "/home/vijval22569/ri_project/openvla/experiments/robot/robot_utils.py", line 10, in <module>
+    from experiments.robot.openvla_utils import (
+  File "/home/vijval22569/ri_project/openvla/experiments/robot/openvla_utils.py", line 13, in <module>
+    from prismatic.extern.hf.configuration_prismatic import OpenVLAConfig
+  File "/home/vijval22569/ri_project/openvla/prismatic/__init__.py", line 1, in <module>
+    from .models import available_model_names, available_models, get_model_description, load
+  File "/home/vijval22569/ri_project/openvla/prismatic/models/__init__.py", line 1, in <module>
+    from .load import available_model_names, available_models, get_model_description, load, load_vla
+  File "/home/vijval22569/ri_project/openvla/prismatic/models/load.py", line 18, in <module>
+    from prismatic.models.vlas import OpenVLA
+  File "/home/vijval22569/ri_project/openvla/prismatic/models/vlas/__init__.py", line 1, in <module>
+    from .openvla import OpenVLA
+  File "/home/vijval22569/ri_project/openvla/prismatic/models/vlas/openvla.py", line 17, in <module>
+    from prismatic.vla.action_tokenizer import ActionTokenizer
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/__init__.py", line 1, in <module>
+    from .materialize import get_vla_dataset_and_collator
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/materialize.py", line 18, in <module>
+    from prismatic.vla.datasets import EpisodicRLDSDataset, RLDSBatchTransform, RLDSDataset
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/datasets/__init__.py", line 1, in <module>
+    from .datasets import DummyDataset, EpisodicRLDSDataset, RLDSBatchTransform, RLDSDataset
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/datasets/datasets.py", line 23, in <module>
+    from prismatic.vla.datasets.rlds.oxe import OXE_NAMED_MIXTURES, get_oxe_dataset_kwargs_and_weights
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/datasets/rlds/oxe/__init__.py", line 1, in <module>
+    from .materialize import get_oxe_dataset_kwargs_and_weights
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/datasets/rlds/oxe/materialize.py", line 13, in <module>
+    from prismatic.vla.datasets.rlds.oxe.configs import OXE_DATASET_CONFIGS, ActionEncoding
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/datasets/rlds/oxe/configs.py", line 29, in <module>
+    from prismatic.vla.datasets.rlds.oxe.utils.droid_utils import zero_action_filter
+  File "/home/vijval22569/ri_project/openvla/prismatic/vla/datasets/rlds/oxe/utils/droid_utils.py", line 6, in <module>
+    import tensorflow_graphics.geometry.transformation as tfg
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/tensorflow_graphics/geometry/transformation/__init__.py", line 19, in <module>
+    from tensorflow_graphics.geometry.transformation import axis_angle
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/tensorflow_graphics/geometry/transformation/axis_angle.py", line 332, in <module>
+    __all__ = export_api.get_functions_and_classes()
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/site-packages/tensorflow_graphics/util/export_api.py", line 31, in get_functions_and_classes
+    caller = inspect.stack()[1]
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/inspect.py", line 1673, in stack
+    return getouterframes(sys._getframe(1), context)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/inspect.py", line 1650, in getouterframes
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/inspect.py", line 1624, in getframeinfo
+    lines, lnum = findsource(frame)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/inspect.py", line 940, in findsource
+    file = getsourcefile(object)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/inspect.py", line 829, in getsourcefile
+    module = getmodule(object, filename)
+  File "/home/vijval22569/miniconda3/envs/openvla/lib/python3.10/inspect.py", line 869, in getmodule
+    if ismodule(module) and hasattr(module, '__file__'):
+KeyboardInterrupt

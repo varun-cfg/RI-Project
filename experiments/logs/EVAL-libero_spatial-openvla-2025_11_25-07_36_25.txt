@@ -1,0 +1,126 @@
+Using constraint-aware policy with constraints: {'max_step_cm': 0.03, 'max_rotation_deg': 10.0, 'lock_rotation': False, 'max_tilt_deg': 15.0, 'workspace_bounds': [[0.2, 0.8], [-0.4, 0.4], [0.0, 0.6]]}
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 1.0114
+Repaired Jerk Score: 0.0101
+Constraint Violation Rate: 75.45%
+Constraint Policy Stats: {'translation_clip_rate': 0.8545454545454545, 'rotation_clip_rate': 0.12727272727272726, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=2--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.8903
+Repaired Jerk Score: 0.0264
+Constraint Violation Rate: 43.18%
+Constraint Policy Stats: {'translation_clip_rate': 0.9636363636363636, 'rotation_clip_rate': 0.05454545454545454, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=3--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.7473
+Repaired Jerk Score: 0.0213
+Constraint Violation Rate: 29.09%
+Constraint Policy Stats: {'translation_clip_rate': 0.9727272727272728, 'rotation_clip_rate': 0.05909090909090909, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=4--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.5656
+Repaired Jerk Score: 0.0145
+Constraint Violation Rate: 70.91%
+Constraint Policy Stats: {'translation_clip_rate': 0.990909090909091, 'rotation_clip_rate': 0.03636363636363636, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=5--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.3922
+Repaired Jerk Score: 0.0133
+Constraint Violation Rate: 74.09%
+Constraint Policy Stats: {'translation_clip_rate': 0.9772727272727273, 'rotation_clip_rate': 0.04090909090909091, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=6--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.5427
+Repaired Jerk Score: 0.0110
+Constraint Violation Rate: 65.45%
+Constraint Policy Stats: {'translation_clip_rate': 0.7636363636363637, 'rotation_clip_rate': 0.05454545454545454, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=7--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.5918
+Repaired Jerk Score: 0.0114
+Constraint Violation Rate: 50.91%
+Constraint Policy Stats: {'translation_clip_rate': 0.9772727272727273, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=8--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.3437
+Repaired Jerk Score: 0.0102
+Constraint Violation Rate: 74.55%
+Constraint Policy Stats: {'translation_clip_rate': 1.0, 'rotation_clip_rate': 0.045454545454545456, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=9--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.4197
+Repaired Jerk Score: 0.0143
+Constraint Violation Rate: 73.18%
+Constraint Policy Stats: {'translation_clip_rate': 0.9454545454545454, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=10--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.3643
+Repaired Jerk Score: 0.0086
+Constraint Violation Rate: 76.36%
+Constraint Policy Stats: {'translation_clip_rate': 0.7363636363636363, 'rotation_clip_rate': 0.022727272727272728, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-07_36_25--episode=11--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.5220
+Repaired Jerk Score: 0.0117
+Constraint Violation Rate: 73.64%
+Constraint Policy Stats: {'translation_clip_rate': 0.9045454545454545, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0}
+# episodes completed so far: 11
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 12...

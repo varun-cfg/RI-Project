@@ -1,0 +1,418 @@
+nohup: ignoring input
+2025-11-25 16:53:12.181769: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-25 16:53:12.181825: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-25 16:53:12.182599: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-25 16:53:12.186859: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-25 16:53:12.784994: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2025-11-25 16:53:15.724270: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-25 16:53:15.727927: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 70.22it/s]
+Using cache found in /home/vijval22569/.cache/torch/hub/intel-isl_MiDaS_master
+/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: DeprecationWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", DeprecationWarning)
+Using cache found in /home/vijval22569/.cache/torch/hub/intel-isl_MiDaS_master
+Logging to local log file: ./experiments/logs/EVAL-libero_spatial-openvla-2025_11_25-16_53_23--test_run.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+num tasks in suite:  10
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:01<00:10,  1.17s/it][A
+ 20%|██        | 2/10 [00:01<00:07,  1.05it/s][A
+ 30%|███       | 3/10 [00:02<00:06,  1.13it/s][A
+ 40%|████      | 4/10 [00:03<00:05,  1.17it/s][A
+ 50%|█████     | 5/10 [00:04<00:04,  1.21it/s][A
+ 60%|██████    | 6/10 [00:05<00:03,  1.22it/s][A
+ 70%|███████   | 7/10 [00:05<00:02,  1.22it/s][A
+ 80%|████████  | 8/10 [00:06<00:01,  1.23it/s][A
+ 90%|█████████ | 9/10 [00:07<00:00,  1.20it/s][A
+100%|██████████| 10/10 [00:08<00:00,  1.21it/s][A100%|██████████| 10/10 [00:08<00:00,  1.18it/s]
+ 20%|██        | 1/5 [00:10<00:43, 10.97s/it]
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Task 0 average score:  3.0000000000000004
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:00<00:07,  1.26it/s][A
+ 20%|██        | 2/10 [00:01<00:06,  1.18it/s][A
+ 30%|███       | 3/10 [00:02<00:05,  1.22it/s][A
+ 40%|████      | 4/10 [00:03<00:04,  1.24it/s][A
+ 50%|█████     | 5/10 [00:04<00:04,  1.25it/s][A
+ 60%|██████    | 6/10 [00:04<00:03,  1.20it/s][A
+ 70%|███████   | 7/10 [00:05<00:02,  1.22it/s][A
+ 80%|████████  | 8/10 [00:06<00:01,  1.24it/s][A
+ 90%|█████████ | 9/10 [00:07<00:00,  1.25it/s][A
+100%|██████████| 10/10 [00:08<00:00,  1.25it/s][A100%|██████████| 10/10 [00:08<00:00,  1.23it/s]
+ 40%|████      | 2/5 [00:19<00:28,  9.64s/it]
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Task 1 average score:  2.7800000000000002
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:00<00:07,  1.22it/s][A
+ 20%|██        | 2/10 [00:01<00:06,  1.17it/s][A
+ 30%|███       | 3/10 [00:02<00:05,  1.21it/s][A
+ 40%|████      | 4/10 [00:03<00:04,  1.23it/s][A
+ 50%|█████     | 5/10 [00:04<00:04,  1.24it/s][A
+ 60%|██████    | 6/10 [00:04<00:03,  1.20it/s][A
+ 70%|███████   | 7/10 [00:05<00:02,  1.22it/s][A
+ 80%|████████  | 8/10 [00:06<00:01,  1.24it/s][A
+ 90%|█████████ | 9/10 [00:07<00:00,  1.25it/s][A
+100%|██████████| 10/10 [00:08<00:00,  1.25it/s][A100%|██████████| 10/10 [00:08<00:00,  1.23it/s]
+ 60%|██████    | 3/5 [00:28<00:18,  9.21s/it]
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Task 2 average score:  2.3200000000000003
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:00<00:07,  1.26it/s][A
+ 20%|██        | 2/10 [00:01<00:06,  1.26it/s][A
+ 30%|███       | 3/10 [00:02<00:05,  1.26it/s][A
+ 40%|████      | 4/10 [00:03<00:04,  1.25it/s][A
+ 50%|█████     | 5/10 [00:03<00:03,  1.26it/s][A
+ 60%|██████    | 6/10 [00:04<00:03,  1.25it/s][A
+ 70%|███████   | 7/10 [00:05<00:02,  1.25it/s][A
+ 80%|████████  | 8/10 [00:06<00:01,  1.25it/s][A
+ 90%|█████████ | 9/10 [00:07<00:00,  1.25it/s][A
+100%|██████████| 10/10 [00:07<00:00,  1.25it/s][A100%|██████████| 10/10 [00:07<00:00,  1.25it/s]
+ 80%|████████  | 4/5 [00:36<00:08,  8.96s/it]
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Task 3 average score:  2.76
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:00<00:07,  1.25it/s][A
+ 20%|██        | 2/10 [00:01<00:06,  1.17it/s][A
+ 30%|███       | 3/10 [00:02<00:05,  1.20it/s][A
+ 40%|████      | 4/10 [00:03<00:05,  1.16it/s][A
+ 50%|█████     | 5/10 [00:04<00:04,  1.14it/s][A
+ 60%|██████    | 6/10 [00:05<00:03,  1.18it/s][A
+ 70%|███████   | 7/10 [00:05<00:02,  1.20it/s][A
+ 80%|████████  | 8/10 [00:06<00:01,  1.22it/s][A
+ 90%|█████████ | 9/10 [00:07<00:00,  1.23it/s][A
+100%|██████████| 10/10 [00:08<00:00,  1.19it/s][A100%|██████████| 10/10 [00:08<00:00,  1.19it/s]
+100%|██████████| 5/5 [00:45<00:00,  8.97s/it]100%|██████████| 5/5 [00:45<00:00,  9.19s/it]
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Task 4 average score:  1.92
+Overall average score:  2.556
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f414b3ecaf0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/platform/baseplatform.py", line 487, in __call__
+    return self(*args, **named)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f416a0d7940>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f414b3ec940>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f416a0d7940>,
+	),
+	result = 0
+)
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f414b3ecaf0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f414b906940>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f414b906940>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f414b906f40>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f414b3ec940>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f414b906940>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f414b906940>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f414b906f40>,
+	),
+	result = 0
+)
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f414b3ecaf0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f42eb03ad40>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f414b3ec940>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f42eb03ad40>,
+	),
+	result = 0
+)
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f414b3ecaf0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f416a0d4e40>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f414b3ec940>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f416a0d4e40>,
+	),
+	result = 0
+)
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f414b3ecaf0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f416a0d66c0>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f414b3ec940>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 150, in free
+    EGL.eglDestroyContext(EGL_DISPLAY, self._context)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglDestroyContext,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f42eb03aac0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f416a0d66c0>,
+	),
+	result = 0
+)

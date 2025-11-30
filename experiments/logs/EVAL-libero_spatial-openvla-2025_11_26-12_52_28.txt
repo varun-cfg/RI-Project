@@ -1,0 +1,98 @@
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_52_28--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.7228
+Repaired Jerk Score: 0.7228
+CVR: 8.41%
+Violation Breakdown: {'tilt': 18, 'smoothness': 0, 'action_smoothness': 16, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.7228
+Current task avg repaired jerk: 0.7228
+Current task avg CVR: 8.41%
+Current total success rate: 1.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_52_28--episode=2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.4484
+Repaired Jerk Score: 0.4484
+CVR: 22.59%
+Violation Breakdown: {'tilt': 85, 'smoothness': 0, 'action_smoothness': 21, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4484
+Current task avg repaired jerk: 0.4484
+Current task avg CVR: 22.59%
+Current total success rate: 1.0
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_52_28--episode=3--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.4036
+Repaired Jerk Score: 0.4036
+CVR: 3.14%
+Violation Breakdown: {'tilt': 1, 'smoothness': 0, 'action_smoothness': 35, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4036
+Current task avg repaired jerk: 0.4036
+Current task avg CVR: 3.14%
+Current total success rate: 1.0
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_52_28--episode=4--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+Raw Jerk Score: 0.4797
+Repaired Jerk Score: 0.4797
+CVR: 7.41%
+Violation Breakdown: {'tilt': 15, 'smoothness': 0, 'action_smoothness': 17, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4797
+Current task avg repaired jerk: 0.4797
+Current task avg CVR: 7.41%
+Current total success rate: 1.0
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_52_28--episode=5--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+Raw Jerk Score: 0.4043
+Repaired Jerk Score: 0.4043
+CVR: 20.96%
+Violation Breakdown: {'tilt': 105, 'smoothness': 0, 'action_smoothness': 29, 'impact': 0, 'safety_height': 0}
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4043
+Current task avg repaired jerk: 0.4043
+Current task avg CVR: 20.96%
+Current total success rate: 1.0
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 100.00%
+Average Raw Jerk Score: 0.4917
+Average Repaired Jerk Score: 0.4917 (lower is smoother)
+Jerk Improvement: 0.0%
+Average CVR: 12.50%
+--------------------------------------------------------------------------------
+COMPREHENSIVE VIOLATION BREAKDOWN:
+  Tilt Violations: 44.8
+  Smoothness Violations: 0.0
+  Impact Violations: 0.0
+  Safety Violations: 0.0
+================================================================================

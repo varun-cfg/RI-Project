@@ -1,0 +1,470 @@
+nohup: ignoring input
+2025-11-25 10:45:24.983389: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-25 10:45:24.983447: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-25 10:45:24.984204: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-25 10:45:24.988294: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-25 10:45:25.582771: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2025-11-25 10:45:28.565307: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-25 10:45:28.570738: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 70.05it/s]
+Using cache found in /home/vijval22569/.cache/torch/hub/intel-isl_MiDaS_master
+/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: DeprecationWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", DeprecationWarning)
+Using cache found in /home/vijval22569/.cache/torch/hub/intel-isl_MiDaS_master
+Logging to local log file: ./experiments/logs/EVAL-libero_spatial-openvla-2025_11_25-10_45_36--test_run.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+num tasks in suite:  10
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:11<01:42, 11.38s/it][A
+ 20%|██        | 2/10 [00:24<01:38, 12.26s/it][A
+ 30%|███       | 3/10 [00:35<01:21, 11.60s/it][A
+ 40%|████      | 4/10 [00:47<01:11, 11.84s/it][A
+ 50%|█████     | 5/10 [01:00<01:01, 12.22s/it][A
+ 60%|██████    | 6/10 [01:12<00:48, 12.22s/it][A
+ 70%|███████   | 7/10 [01:26<00:38, 12.90s/it][A
+ 80%|████████  | 8/10 [01:40<00:26, 13.14s/it][A
+ 90%|█████████ | 9/10 [01:55<00:13, 13.67s/it][A
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Grasp the black bowl', 'constraint': 'Ensure the gripper is positioned correctly to securely grasp the black bowl without damaging it.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The lifting motion should be smooth and controlled to avoid any collision with other objects or the microscope.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate the black bowl towards the plate ensuring there is enough space for the bowl to rest on the plate without tilting.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Carefully lower the black bowl onto the plate to ensure it is placed gently and securely.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located between the plate and the ramekin.', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must be able to securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl off the table.', 'constraint': 'The robot should apply enough force to lift the bowl but not exceed its weight capacity.'}, {'subtask': 'Move towards the plate.', 'constraint': 'The path of the robot should avoid any obstacles and ensure it reaches the plate safely.'}, {'subtask': 'Place the black bowl on the plate.', 'constraint': 'The bowl should be placed gently on the plate to avoid any breakage or displacement of other objects.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl between the plate and the ramekin', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Pick up the black bowl', 'constraint': 'The gripper must be able to securely grasp the black bowl without damaging it.'}, {'subtask': 'Move towards the plate', 'constraint': 'The robot should move smoothly and avoid obstacles such as the microscope or other objects.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'The black bowl should be placed gently on the plate to avoid any damage.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located between the plate and the ramekin.', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must be able to securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl off the table.', 'constraint': 'The robot should lift the black bowl vertically without tilting it.'}, {'subtask': 'Move towards the plate.', 'constraint': 'The path of the robot should avoid any obstacles such as the ramekins or other objects on the table.'}, {'subtask': 'Place the black bowl on the plate.', 'constraint': 'The black bowl should be placed gently on the plate to avoid any breakage.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl', 'constraint': 'The black bowl is located on the left side of the plate.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Ensure the gripper is positioned above the black bowl.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted without colliding with other objects.'}, {'subtask': 'Move towards the plate', 'constraint': 'The path to the plate should avoid obstacles such as the drawer and box.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'The black bowl should be placed gently on the plate to avoid breaking it.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located between the plate and the ramekin.', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must be able to securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl.', 'constraint': 'The robot should apply enough force to lift the black bowl but not exceed its weight capacity.'}, {'subtask': 'Move towards the plate.', 'constraint': 'The robot must navigate around the other objects (plates and ramekins) without colliding.'}, {'subtask': 'Place the black bowl on the plate.', 'constraint': 'The black bowl should be placed gently on the plate to avoid breaking it.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl between the plate and the ramekin', 'constraint': "Ensure the robot's gripper is positioned within the depth range of the black bowl."}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must be able to securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The robot should lift the black bowl without exceeding its weight capacity or causing it to tip over.'}, {'subtask': 'Move towards the plate', 'constraint': 'The robot must navigate around the other objects on the table to reach the plate.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'The black bowl should be placed gently on the plate to avoid any damage.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl between the plate and the ramekin', 'constraint': 'Ensure the black bowl is within reach of your gripper.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must be positioned correctly to securely grasp the black bowl.'}, {'subtask': 'Lift the black bowl', 'constraint': 'Apply sufficient force to lift the black bowl without causing it to tip over or lose grip.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate the workspace to bring the black bowl close to the plate.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed gently on the plate to avoid any damage.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located between the plate and the ramekin.', 'constraint': "Ensure the robot's arm is positioned within the depth field of the black bowl, avoiding collision with other objects."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must be large enough to securely hold the black bowl without damaging it. Ensure the gripper is aligned correctly for a stable grasp.'}, {'subtask': 'Lift the black bowl.', 'constraint': 'The lifting force should be sufficient to lift the black bowl but not excessive to cause damage. The movement should be smooth and controlled.'}, {'subtask': 'Move towards the plate.', 'constraint': "Navigate the robot's arm to the plate while maintaining a safe distance from the other objects on the table. Avoid any obstacles."}, {'subtask': 'Place the black bowl on the plate.', 'constraint': 'The placement should be gentle to avoid breaking the bowl or plate. Ensure the bowl is centered on the plate.'}]}
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  
+100%|██████████| 10/10 [02:07<00:00, 13.18s/it][A100%|██████████| 10/10 [02:07<00:00, 12.73s/it]
+ 20%|██        | 1/5 [02:09<08:37, 129.46s/it]{'constraints': [{'subtask': 'Move to the black bowl between the plate and the ramekin', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Pick up the black bowl', 'constraint': 'The gripper must be able to securely grasp the black bowl without damaging it.'}, {'subtask': 'Move towards the plate', 'constraint': 'The robot should move smoothly and avoid obstacles such as the other objects on the table.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'The black bowl should be placed gently on the plate to avoid any damage or spillage.'}]}
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:12<01:51, 12.37s/it][A
+ 20%|██        | 2/10 [00:25<01:41, 12.69s/it][A
+ 30%|███       | 3/10 [00:36<01:23, 11.88s/it][A
+ 40%|████      | 4/10 [00:48<01:11, 11.87s/it][A
+ 50%|█████     | 5/10 [01:00<00:59, 11.91s/it][A
+ 60%|██████    | 6/10 [01:12<00:48, 12.10s/it][A
+ 70%|███████   | 7/10 [01:23<00:35, 11.79s/it][A
+ 80%|████████  | 8/10 [01:34<00:23, 11.58s/it][A
+ 90%|█████████ | 9/10 [01:48<00:12, 12.21s/it][A
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the metal bowl', 'constraint': 'The robot should move its arm towards the metal bowl located on the table.'}, {'subtask': 'Grasp the metal bowl', 'constraint': "The robot's gripper must securely grasp the metal bowl without damaging it."}, {'subtask': 'Lift the metal bowl', 'constraint': 'The robot should lift the metal bowl off the table while maintaining a stable grip.'}, {'subtask': 'Move towards the plate', 'constraint': 'The robot should move its arm towards the plate on the table.'}, {'subtask': 'Release the metal bowl onto the plate', 'constraint': 'The robot should release the metal bowl onto the plate without causing any damage or spillage.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'The black bowl is located on the table. Ensure there are no obstacles between the robot and the bowl.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'The black bowl must be within the reach of the gripper. The gripper should be positioned to avoid any damage to the bowl.'}, {'subtask': 'Lift the black bowl', 'constraint': "The black bowl should be lifted gently to avoid any breakage or damage. The lifting force should be calculated based on the bowl's weight."}, {'subtask': 'Move towards the plate', 'constraint': 'The plate is located on the table. Ensure that the path from the bowl to the plate is clear and free of obstacles.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'The plate should be large enough to accommodate the bowl without spilling. The placement should be done carefully to ensure stability.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'Ensure there is enough space between the black bowl and other objects to avoid collisions.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Use appropriate force to grip the black bowl without damaging it or the surrounding objects.'}, {'subtask': 'Lift the black bowl', 'constraint': 'Lift the black bowl carefully to prevent it from tipping over or breaking.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate around the plate and other objects to reach the plate safely.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl with the plate and place it gently to avoid any damage.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'The black bowl is located at the top left of the table.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Ensure the gripper is positioned above the black bowl to avoid collision.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted without tilting or spilling its contents.'}, {'subtask': 'Move towards the plate', 'constraint': 'The plate is located at the center of the table. Ensure the path does not interfere with other objects.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl carefully over the plate to ensure it is placed correctly without spilling.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the metal bowl on the black box', 'constraint': 'Ensure there is enough space around the black box to avoid collisions.'}, {'subtask': 'Grasp the metal bowl', 'constraint': 'The gripper must be positioned correctly to securely grasp the metal bowl without damaging it.'}, {'subtask': 'Lift the metal bowl off the black box', 'constraint': 'The lifting force should be applied evenly to prevent the bowl from tipping or breaking.'}, {'subtask': 'Move towards the white plate', 'constraint': 'Maintain a steady speed to ensure precise placement of the metal bowl on the white plate.'}, {'subtask': 'Place the metal bowl on the white plate', 'constraint': 'The placement should be gentle to avoid any damage to the white plate or the metal bowl.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'Ensure there is enough space for the black bowl to be moved without colliding with other objects.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must be positioned correctly to securely grasp the black bowl without damaging it or other nearby objects.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted gently to avoid any damage. Ensure that the lifting motion does not cause the bowl to tip over or fall.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate the path to the plate ensuring no obstacles are in the way. The movement should be smooth and controlled to prevent any accidental contact with other objects.'}, {'subtask': 'Release the black bowl onto the plate', 'constraint': 'The release of the black bowl must be precise to ensure it lands on the plate without spilling its contents. The bowl should be placed gently to avoid breaking.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': "Ensure the robot's arm is within the depth range of the black bowl."}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must be positioned to securely hold the black bowl without damaging it.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The lifting force should be sufficient to lift the black bowl but not exceed its weight capacity.'}, {'subtask': 'Move towards the plate', 'constraint': "Navigate the robot's arm to align with the plate's position on the table."}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed gently on the plate to avoid any damage or spillage.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'The black bowl is located to the right of the plate.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Ensure the gripper is positioned above the black bowl for a secure grasp.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted without tilting or spilling its contents.'}, {'subtask': 'Move towards the plate', 'constraint': 'The plate is located directly in front of the black bowl.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl carefully over the plate to ensure it is placed correctly.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'The black bowl is located at the top right of the table.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Ensure that the gripper is positioned above the black bowl to avoid collision.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted gently to prevent any damage or spillage.'}, {'subtask': 'Move towards the plate', 'constraint': 'The plate is located at the bottom left of the table. Ensure there is enough space for the black bowl to be placed on it.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl carefully with the plate to ensure a stable placement without spilling.'}]}
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  
+100%|██████████| 10/10 [02:00<00:00, 12.26s/it][A100%|██████████| 10/10 [02:00<00:00, 12.08s/it]
+ 40%|████      | 2/5 [04:10<06:14, 124.68s/it]{'constraints': [{'subtask': 'Grasp the black bowl', 'constraint': 'Ensure the gripper is positioned close to the black bowl without touching any other objects.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl must be lifted off the table without colliding with other objects or the environment.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate the black bowl to the position directly above the plate without overshooting or colliding.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed gently on the plate, avoiding any damage to either object.'}]}
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:12<01:52, 12.56s/it][A
+ 20%|██        | 2/10 [00:27<01:50, 13.87s/it][A
+ 30%|███       | 3/10 [00:39<01:32, 13.20s/it][A
+ 40%|████      | 4/10 [00:51<01:16, 12.76s/it][A
+ 50%|█████     | 5/10 [01:04<01:03, 12.71s/it][A
+ 60%|██████    | 6/10 [01:19<00:53, 13.38s/it][A
+ 70%|███████   | 7/10 [01:32<00:40, 13.46s/it][A
+ 80%|████████  | 8/10 [01:46<00:26, 13.47s/it][A
+ 90%|█████████ | 9/10 [01:57<00:12, 12.82s/it][A
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl', 'constraint': 'The black bowl is located to the left of the plate.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Ensure the gripper is positioned above the black bowl.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted without colliding with other objects.'}, {'subtask': 'Move towards the plate', 'constraint': 'The plate is located directly in front of the black bowl.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed gently on the plate without spilling its contents.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the metal bowl on the table', 'constraint': "Ensure the robot's arm is positioned within the bounding box of the metal bowl."}, {'subtask': 'Grasp the metal bowl', 'constraint': 'The gripper must be in contact with the metal bowl, ensuring a secure hold.'}, {'subtask': 'Lift the metal bowl off the table', 'constraint': 'The metal bowl should be lifted without tilting or spilling its contents. The lifting force should be applied at the center of mass of the bowl.'}, {'subtask': 'Move towards the plate', 'constraint': 'The robot should move in a straight line from the metal bowl to the plate, avoiding obstacles like the book and the box.'}, {'subtask': 'Place the metal bowl on the plate', 'constraint': 'The metal bowl should be placed gently on the plate, ensuring it does not tip over or spill any contents. The placement should be centered for stability.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located at the center of the table.', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl off the table.', 'constraint': 'The lifting force should be sufficient to lift the bowl but not exceed its weight to avoid breaking it.'}, {'subtask': 'Move towards the plate located on the table.', 'constraint': 'Maintain a steady speed to ensure precise placement of the bowl on the plate.'}, {'subtask': 'Place the black bowl on top of the plate.', 'constraint': 'Align the bowl carefully over the plate to ensure a stable and secure placement.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located at the center of the table.', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl off the table.', 'constraint': 'The lifting force should be sufficient to lift the bowl but not exceed its weight to avoid breaking it.'}, {'subtask': 'Move towards the plate.', 'constraint': 'Navigate the robot to ensure it can reach the plate without colliding with other objects or the environment.'}, {'subtask': 'Place the black bowl on top of the plate.', 'constraint': 'The placement should be gentle to avoid damaging either the bowl or the plate.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl on the table', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl off the table', 'constraint': 'The robot should lift the bowl at a steady pace to avoid breaking it or spilling its contents.'}, {'subtask': 'Move towards the plate', 'constraint': "Navigate the robot to move smoothly from the bowl's location to the plate."}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the bowl is placed gently on the plate to avoid any spillage or breakage.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located at the center of the table.', 'constraint': 'The black bowl is centrally located among the plates on the table. Ensure you move directly to it without colliding with other objects.'}, {'subtask': 'Grasp the black bowl.', 'constraint': 'Ensure your grasp is firm but gentle to avoid damaging the bowl or the surrounding objects.'}, {'subtask': 'Lift the black bowl off the table.', 'constraint': 'Lift the black bowl vertically upwards, ensuring that it does not tip over or collide with any other objects during the lift.'}, {'subtask': 'Move towards the plate.', 'constraint': 'Identify the plate closest to where the black bowl was lifted from. Move in a straight line towards this plate.'}, {'subtask': 'Place the black bowl on the plate.', 'constraint': 'Carefully place the black bowl onto the plate, ensuring it is centered and stable. Avoid any sudden movements that could cause the bowl to fall.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the metal bowl', 'constraint': "Ensure the robot's gripper is within reach of the metal bowl."}, {'subtask': 'Grasp the metal bowl', 'constraint': 'The gripper must securely hold the metal bowl without causing damage.'}, {'subtask': 'Lift the metal bowl', 'constraint': 'The robot should lift the metal bowl without tilting it or spilling its contents.'}, {'subtask': 'Move towards the cardboard box', 'constraint': 'Navigate the robot to move the metal bowl close to the cardboard box.'}, {'subtask': 'Release the metal bowl onto the cardboard box', 'constraint': 'Ensure the metal bowl is placed gently on the cardboard box to avoid any damage.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the metal bowl', 'constraint': "Ensure the robot's gripper is within reach of the metal bowl."}, {'subtask': 'Grasp the metal bowl', 'constraint': 'The gripper must securely hold the metal bowl without causing damage.'}, {'subtask': 'Lift the metal bowl', 'constraint': 'The lifting force should be sufficient to lift the metal bowl but not exceed its weight capacity.'}, {'subtask': 'Move towards the plate', 'constraint': 'The path to the plate should be clear and avoid obstacles.'}, {'subtask': 'Place the metal bowl on the plate', 'constraint': 'The placement should be gentle to avoid breaking the plate or the metal bowl.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl located at the center of the table.', 'constraint': "Ensure the robot's gripper is positioned above the black bowl."}, {'subtask': 'Grasp the black bowl.', 'constraint': 'The gripper must be able to securely hold the black bowl without causing damage.'}, {'subtask': 'Lift the black bowl off the table.', 'constraint': 'The lifting force should be sufficient to lift the black bowl but not exceed its weight capacity.'}, {'subtask': 'Move towards the plate.', 'constraint': 'Navigate the robot to avoid obstacles such as other plates or the microscope.'}, {'subtask': 'Place the black bowl on the plate.', 'constraint': 'The placement should be done gently to prevent any breakage.'}]}
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  
+100%|██████████| 10/10 [02:10<00:00, 12.88s/it][A100%|██████████| 10/10 [02:10<00:00, 13.06s/it]
+ 60%|██████    | 3/5 [06:22<04:15, 127.68s/it]{'constraints': [{'subtask': 'Move to the black bowl on the table', 'constraint': 'Ensure the black bowl is within reach of your arm.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'Use a firm grip to securely hold the black bowl without slipping.'}, {'subtask': 'Lift the black bowl off the table', 'constraint': 'Lift the black bowl vertically upwards, ensuring it does not collide with other objects on the table.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate around the table to approach the plate, avoiding obstacles like the microscope and drawer.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Position the black bowl gently onto the plate, ensuring it is stable and does not tip over.'}]}
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:11<01:46, 11.80s/it][A
+ 20%|██        | 2/10 [00:23<01:33, 11.69s/it][A
+ 30%|███       | 3/10 [00:35<01:23, 11.86s/it][A
+ 40%|████      | 4/10 [00:47<01:12, 12.11s/it][A
+ 50%|█████     | 5/10 [01:00<01:00, 12.16s/it][A
+ 60%|██████    | 6/10 [01:12<00:48, 12.22s/it][A
+ 70%|███████   | 7/10 [01:24<00:36, 12.13s/it][A
+ 80%|████████  | 8/10 [01:37<00:24, 12.45s/it][A
+ 90%|█████████ | 9/10 [01:47<00:11, 11.73s/it][A
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move the arm towards the black bowl', 'constraint': 'Ensure the arm is positioned within the reach of the black bowl.'}, {'subtask': 'Grasp the black bowl', 'constraint': "The gripper must be aligned with the black bowl's surface for a secure grasp."}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted without tilting or spilling its contents.'}, {'subtask': 'Move the arm towards the plate', 'constraint': "The arm should be directed towards the plate to ensure it is within the bowl's trajectory."}, {'subtask': 'Release the black bowl onto the plate', 'constraint': 'The release point should be over the plate to avoid any spillage.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the bowl on the microwave', 'constraint': 'Ensure the robot arm is positioned above the bowl on the microwave.'}, {'subtask': 'Grasp the bowl', 'constraint': 'The gripper must be able to securely hold the bowl without causing damage.'}, {'subtask': 'Lift the bowl off the microwave', 'constraint': 'The robot arm must have enough force to lift the bowl from the microwave without toppling it.'}, {'subtask': 'Move towards the plate', 'constraint': 'The robot arm should be able to move smoothly from the microwave to the plate.'}, {'subtask': 'Place the bowl on the plate', 'constraint': 'The bowl should be placed gently on the plate to avoid any breakage or displacement of other objects.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the bowl on the table', 'constraint': "Ensure the robot's gripper is positioned above the bowl on the table."}, {'subtask': 'Grasp the bowl', 'constraint': 'The gripper must securely grasp the bowl without damaging it.'}, {'subtask': 'Lift the bowl off the table', 'constraint': 'The gripper should lift the bowl vertically while maintaining its stability.'}, {'subtask': 'Move towards the plate', 'constraint': "Navigate the robot to move from the bowl's location to the plate's location on the table."}, {'subtask': 'Place the bowl on the plate', 'constraint': 'Position the bowl gently onto the plate, ensuring no damage or spillage.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the metallic bowl on the wooden table', 'constraint': "Ensure the robot's end-effector is within reach of the metallic bowl on the wooden table."}, {'subtask': 'Grasp the metallic bowl', 'constraint': 'The gripper must be positioned correctly to securely grasp the metallic bowl without damaging it.'}, {'subtask': 'Lift the metallic bowl', 'constraint': 'The lifting force applied by the robot should be sufficient to lift the metallic bowl but not exceed its weight to avoid damage.'}, {'subtask': 'Move towards the black box', 'constraint': 'Navigate the robot to move from the metallic bowl to the black box while maintaining a stable path.'}, {'subtask': 'Release the metallic bowl onto the plate on top of the black box', 'constraint': 'Ensure the release point is accurately aligned with the plate on top of the black box to place the metallic bowl precisely.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl on the cookie box', 'constraint': 'Ensure the robot arm is positioned above the black bowl on the cookie box.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must be in contact with the black bowl to lift it.'}, {'subtask': 'Lift the black bowl', 'constraint': 'The black bowl should be lifted without tilting or spilling its contents.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate the robot arm smoothly from the black bowl to the plate, avoiding obstacles.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl carefully over the plate to ensure a stable placement.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Grasp the black bowl on the metallic box', 'constraint': 'Ensure the black bowl is securely held by the gripper before lifting.'}, {'subtask': 'Lift the black bowl off the metallic box', 'constraint': 'The black bowl must be lifted without tilting or spilling its contents.'}, {'subtask': 'Move towards the metallic plate', 'constraint': 'Maintain a steady pace to avoid knocking over any objects during the movement.'}, {'subtask': 'Place the black bowl on the metallic plate', 'constraint': 'Ensure the black bowl is placed gently on the metallic plate to avoid any damage.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move towards the black bowl on the cookie box', 'constraint': 'Ensure there is enough space between the black bowl and the cookie box for the robot to grasp it.'}, {'subtask': 'Grasp the black bowl', 'constraint': 'The gripper must be positioned correctly to securely hold the black bowl without damaging it.'}, {'subtask': 'Lift the black bowl off the cookie box', 'constraint': 'The lifting force should be sufficient to lift the black bowl but not too much to cause damage or instability.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate around any obstacles such as the drawer and the microwave to reach the plate safely.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl carefully with the plate to ensure it fits properly without spilling.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the metallic bowl on the metallic plate', 'constraint': "Ensure the robot's gripper is positioned above the metallic bowl on the metallic plate."}, {'subtask': 'Grasp the metallic bowl', 'constraint': 'The gripper must securely grasp the metallic bowl without damaging it.'}, {'subtask': 'Lift the metallic bowl off the metallic plate', 'constraint': 'The robot should lift the metallic bowl vertically while maintaining its stability.'}, {'subtask': 'Move towards the plate on the wooden surface', 'constraint': 'Navigate the robot to the position of the metallic plate on the wooden surface.'}, {'subtask': 'Place the metallic bowl on the plate', 'constraint': 'Position the metallic bowl directly onto the metallic plate on the wooden surface without causing any damage or misalignment.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the black bowl on the cookie box', 'constraint': "Ensure the black bowl is within reach of the robot's gripper."}, {'subtask': 'Pick up the black bowl', 'constraint': 'The black bowl must be lifted without causing any damage or losing its contents.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate around the microscope and other objects to avoid collisions.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Align the black bowl carefully over the plate to ensure it fits properly.'}]}
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  
+100%|██████████| 10/10 [01:59<00:00, 11.57s/it][A100%|██████████| 10/10 [01:59<00:00, 11.90s/it]
+ 80%|████████  | 4/5 [08:21<02:04, 124.48s/it]{'constraints': [{'subtask': 'Move to the metal bowl on the table', 'constraint': "Ensure the robot's arm is positioned within the depth of field of the metal bowl on the table."}, {'subtask': 'Grasp the metal bowl', 'constraint': 'The gripper must be able to securely grasp the metal bowl without causing damage.'}, {'subtask': 'Lift the metal bowl', 'constraint': "The robot's arm must have sufficient strength to lift the metal bowl without exceeding its weight capacity."}, {'subtask': 'Move towards the plate', 'constraint': 'The path from the metal bowl to the plate should be clear and free of obstacles.'}, {'subtask': 'Release the metal bowl onto the plate', 'constraint': 'The release point should be accurately aligned with the plate to ensure the metal bowl lands correctly.'}]}
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:11<01:44, 11.62s/it][A
+ 20%|██        | 2/10 [00:24<01:41, 12.65s/it][A
+ 30%|███       | 3/10 [00:36<01:23, 11.96s/it][A
+ 40%|████      | 4/10 [00:50<01:16, 12.78s/it][A
+ 50%|█████     | 5/10 [01:04<01:05, 13.19s/it][A
+ 60%|██████    | 6/10 [01:14<00:49, 12.38s/it][A
+ 70%|███████   | 7/10 [01:26<00:36, 12.25s/it][A
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the top drawer of the wooden cabinet', 'constraint': 'Ensure there is enough space for the black bowl to fit inside the top drawer.'}, {'subtask': 'Grab the black bowl from the top drawer', 'constraint': 'Verify that the black bowl can be securely lifted without causing any damage or instability.'}, {'subtask': 'Close the top drawer', 'constraint': 'Ensure the drawer is closed gently to avoid any noise or damage to the surrounding objects.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate around the book and other objects to reach the plate safely.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed carefully on the plate to avoid any breakage or spillage.'}]}
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  ```json
+[
+    {
+        "subtask": "Move to the top drawer of the wooden cabinet",
+        "constraint": "Ensure there is enough clearance for the robotic arm to reach the top drawer."
+    },
+    {
+        "subtask": "Open the top drawer",
+        "constraint": "The robotic arm must be able to open the drawer without hitting any obstacles."
+    },
+    {
+        "subtask": "Pick up the black bowl from the top drawer",
+        "constraint": "The robotic arm should be positioned above the bowl to pick it up safely."
+    },
+    {
+        "subtask": "Close the top drawer",
+        "constraint": "The robotic arm should be positioned above the drawer to close it safely."
+    },
+    {
+        "subtask": "Move to the plate on the table",
+        "constraint": "The robotic arm should be positioned above the plate to place the bowl on it safely."
+    },
+    {
+        "subtask": "Place the black bowl on the plate",
+        "constraint": "Ensure that the bowl is placed gently on the plate to avoid breaking it."
+    }
+]
+```
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Open the top drawer of the wooden cabinet', 'constraint': 'Ensure there is enough space for the drawer to open without hitting any obstacles.'}, {'subtask': 'Pick up the black bowl from the drawer', 'constraint': 'Verify that the black bowl can be lifted safely without causing damage or injury.'}, {'subtask': 'Close the top drawer of the wooden cabinet', 'constraint': 'Ensure the drawer is securely closed to prevent any items from falling out.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed gently on the plate to avoid breaking it.'}]}
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  ```json
+{
+    "constraints": [
+        {
+            "subtask": "Move to the top drawer of the wooden cabinet",
+            "constraint": "The wooden cabinet is not visible in the image. Ensure the cabinet is within reach and accessible."
+        },
+        {
+            "subtask": "Open the top drawer",
+            "constraint": "The drawer must be openable and accessible. Ensure there are no obstacles or locks preventing access."
+        },
+        {
+            "subtask": "Pick up the black bowl from the top drawer",
+            "constraint": "The black bowl should be located inside the top drawer. Ensure it is not obscured by other objects and can be grasped safely."
+        },
+        {
+            "subtask": "Close the top drawer",
+            "constraint": "The drawer must be closable without damage. Ensure the drawer has a proper mechanism for closing securely."
+        },
+        {
+            "subtask": "Move to the table",
+            "constraint": "The table is visible in the image. Ensure you have a clear path to the table and that there are no obstacles."
+        },
+        {
+            "subtask": "Place the black bowl on the plate",
+            "constraint": "Ensure the plate is stable and large enough
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  ```json
+{
+    "constraints": [
+        {
+            "subtask": "Move to the top drawer of the wooden cabinet",
+            "constraint": "Ensure there is enough clearance for the robot arm to reach the top drawer."
+        },
+        {
+            "subtask": "Open the top drawer",
+            "constraint": "The robot arm must be able to open the drawer without hitting any obstacles."
+        },
+        {
+            "subtask": "Pick up the black bowl from the top drawer",
+            "constraint": "The robot arm should be positioned above the drawer to pick up the bowl. Ensure the bowl is within the reach of the gripper."
+        },
+        {
+            "subtask": "Close the top drawer",
+            "constraint": "The robot arm should be positioned above the drawer to close it smoothly without causing damage."
+        },
+        {
+            "subtask": "Move to the plate on the table",
+            "constraint": "The robot arm should be able to move from the top drawer to the plate on the table without colliding with any objects."
+        },
+        {
+            "subtask": "Place the black bowl on the plate",
+            "constraint": "The robot arm should be positioned above the plate to place the bowl accurately
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  ```json
+[
+    {
+        "subtask": "Open the top drawer of the wooden cabinet",
+        "constraint": "Ensure there is enough space above the cabinet to open the drawer without hitting any obstacles."
+    },
+    {
+        "subtask": "Pick up the black bowl from the top drawer",
+        "constraint": "Verify that the black bowl is securely placed inside the drawer before attempting to pick it up. Ensure the bowl does not tip over during the pick-up process."
+    },
+    {
+        "subtask": "Close the top drawer",
+        "constraint": "Ensure the drawer is closed gently to avoid any damage or knocking over nearby objects."
+    },
+    {
+        "subtask": "Place the black bowl on the plate",
+        "constraint": "Ensure the black bowl is positioned correctly on the plate so that it does not spill its contents."
+    }
+]
+```
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the bowl on the table', 'constraint': 'Ensure the robot arm is positioned within the depth range of the bowl.'}, {'subtask': 'Grasp the bowl', 'constraint': 'The gripper must be able to securely hold the bowl without causing damage.'}, {'subtask': 'Lift the bowl', 'constraint': "The lifting force applied by the robot should not exceed the bowl's weight to avoid breaking it."}, {'subtask': 'Move towards the plate', 'constraint': 'The path taken by the robot arm should avoid obstacles such as the package and ensure smooth movement.'}, {'subtask': 'Place the bowl on the plate', 'constraint': 'The bowl should be placed gently on the plate to prevent any damage or spillage.'}]}
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  
+ 80%|████████  | 8/10 [01:37<00:23, 11.72s/it][A
+ 90%|█████████ | 9/10 [01:49<00:11, 11.92s/it][A
+100%|██████████| 10/10 [02:03<00:00, 12.41s/it][A100%|██████████| 10/10 [02:03<00:00, 12.33s/it]
+100%|██████████| 5/5 [10:25<00:00, 124.27s/it]100%|██████████| 5/5 [10:25<00:00, 125.10s/it]
+{'constraints': [{'subtask': 'Open the top drawer of the wooden cabinet', 'constraint': 'Ensure there is enough space above the drawer to open it without hitting any obstacles.'}, {'subtask': 'Pick up the black bowl from the top drawer', 'constraint': 'Verify that the black bowl is securely placed inside the drawer before attempting to pick it up. Avoid pulling out the drawer too far to prevent damage or misalignment.'}, {'subtask': 'Close the top drawer', 'constraint': 'Ensure the drawer is fully closed to avoid any accidental opening during subsequent tasks.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Carefully place the black bowl on the plate to ensure it does not tip over or cause any damage.'}]}
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the top drawer of the wooden cabinet', 'constraint': 'Ensure there is enough space for the robot arm to reach the top drawer.'}, {'subtask': 'Open the top drawer', 'constraint': 'Verify that the drawer is not locked or obstructed.'}, {'subtask': 'Pick up the black bowl from the top drawer', 'constraint': 'Ensure the robot arm can securely grasp the bowl without damaging it.'}, {'subtask': 'Close the top drawer', 'constraint': 'Ensure the robot arm can safely close the drawer without causing damage.'}, {'subtask': 'Move towards the plate', 'constraint': 'Navigate the robot arm around obstacles such as the candy and other objects on the table.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the bowl is placed gently on the plate to avoid breaking it.'}]}
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+GOING IN
+plan:  {'constraints': [{'subtask': 'Move to the top drawer of the wooden cabinet', 'constraint': 'Ensure there is enough space for the robot arm to reach the top drawer.'}, {'subtask': 'Open the top drawer', 'constraint': 'The robot arm must be able to open the drawer without hitting any obstacles.'}, {'subtask': 'Pick up the black bowl from the top drawer', 'constraint': 'The robot arm should be positioned to grasp the black bowl without damaging it or the drawer.'}, {'subtask': 'Close the top drawer', 'constraint': 'The robot arm must be able to close the drawer smoothly without causing damage.'}, {'subtask': 'Move to the plate on the table', 'constraint': 'The robot arm should navigate around the objects on the table (bowl, microscope, package) to reach the plate.'}, {'subtask': 'Place the black bowl on the plate', 'constraint': 'Ensure the black bowl is placed gently on the plate to avoid breaking either object.'}]}
+Exception ignored in: <function MjRenderContext.__del__ at 0x7feb276a09d0>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7fecc7c3ba40>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7feb27c1ec40>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7feb27c1ec40>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7feb27c1f240>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7feb276a0820>
+Traceback (most recent call last):
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/home/vijval22569/miniconda3/envs/ri/lib/python3.10/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7fecc7c3ba40>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7feb27c1ec40>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7feb27c1ec40>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7feb27c1f240>,
+	),
+	result = 0
+)

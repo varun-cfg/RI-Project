@@ -1,0 +1,40 @@
+Using constraint-aware policy with constraints: {'max_step_cm': 0.08, 'max_rotation_deg': 25.0, 'lock_rotation': False, 'max_tilt_deg': 30.0, 'workspace_bounds': [[0.1, 0.9], [-0.5, 0.5], [-0.1, 0.7]], 'adaptive': True}
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_45_35--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5357
+Repaired Jerk Score: 0.3876
+CVR: 100.00%
+Violation Breakdown: {'tilt': 61, 'smoothness': 0, 'action_smoothness': 284, 'impact': 0, 'safety_height': 0}
+Constraint Policy Stats: {'translation_clip_rate': 0.8545454545454545, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.7073926755812997, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.5357
+Current task avg repaired jerk: 0.3876
+Current task avg CVR: 100.00%
+Current total success rate: 1.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_45_35--episode=2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.3794
+Repaired Jerk Score: 0.2678
+CVR: 100.00%
+Violation Breakdown: {'tilt': 117, 'smoothness': 0, 'action_smoothness': 251, 'impact': 0, 'safety_height': 0}
+Constraint Policy Stats: {'translation_clip_rate': 0.9716312056737588, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.7123440766406941, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.3794
+Current task avg repaired jerk: 0.2678
+Current task avg CVR: 100.00%
+Current total success rate: 1.0
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...

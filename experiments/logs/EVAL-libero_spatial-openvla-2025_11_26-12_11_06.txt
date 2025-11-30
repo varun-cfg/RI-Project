@@ -1,0 +1,88 @@
+Using constraint-aware policy with constraints: {'max_step_cm': 0.08, 'max_rotation_deg': 25.0, 'lock_rotation': False, 'max_tilt_deg': 30.0, 'workspace_bounds': [[0.1, 0.9], [-0.5, 0.5], [-0.1, 0.7]], 'adaptive': True}
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_11_06--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk: 0.0023, Repaired: 0.0023
+CVR: 59.09%
+Constraint Stats: {'translation_clip_rate': 1.0, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.1277916410286638, 'avg_rotation_scaling': 1.0}
+Episodes: 1, Successes: 0
+
+Task Results:
+  Success Rate: 0.00%
+  Avg Raw Jerk: 0.0023
+  Avg Repaired Jerk: 0.0023
+  Avg CVR: 59.09%
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_11_06--episode=2--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk: 0.0006, Repaired: 0.0006
+CVR: 0.00%
+Constraint Stats: {'translation_clip_rate': 0.9954545454545455, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.13607742427783837, 'avg_rotation_scaling': 1.0}
+Episodes: 2, Successes: 0
+
+Task Results:
+  Success Rate: 0.00%
+  Avg Raw Jerk: 0.0006
+  Avg Repaired Jerk: 0.0006
+  Avg CVR: 0.00%
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_11_06--episode=3--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk: 0.0006, Repaired: 0.0006
+CVR: 67.27%
+Constraint Stats: {'translation_clip_rate': 0.9454545454545454, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.18766160559135753, 'avg_rotation_scaling': 1.0}
+Episodes: 3, Successes: 0
+
+Task Results:
+  Success Rate: 0.00%
+  Avg Raw Jerk: 0.0006
+  Avg Repaired Jerk: 0.0006
+  Avg CVR: 67.27%
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_11_06--episode=4--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: False
+Raw Jerk: 0.0009, Repaired: 0.0009
+CVR: 0.00%
+Constraint Stats: {'translation_clip_rate': 0.8590909090909091, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.17845179589715257, 'avg_rotation_scaling': 1.0}
+Episodes: 4, Successes: 0
+
+Task Results:
+  Success Rate: 0.00%
+  Avg Raw Jerk: 0.0009
+  Avg Repaired Jerk: 0.0009
+  Avg CVR: 0.00%
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_26/2025_11_26-12_11_06--episode=5--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk: 0.0005, Repaired: 0.0005
+CVR: 77.27%
+Constraint Stats: {'translation_clip_rate': 0.9863636363636363, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.16622730361983168, 'avg_rotation_scaling': 1.0}
+Episodes: 5, Successes: 0
+
+Task Results:
+  Success Rate: 0.00%
+  Avg Raw Jerk: 0.0005
+  Avg Repaired Jerk: 0.0005
+  Avg CVR: 77.27%
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Success Rate: 0.00%
+Raw Jerk: 0.0010
+Repaired Jerk: 0.0010
+Jerk Improvement: 0.0%
+CVR: 40.73%
+================================================================================

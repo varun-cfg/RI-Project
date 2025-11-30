@@ -1,0 +1,172 @@
+Using constraint-aware policy with constraints: {'max_step_cm': 0.15, 'max_rotation_deg': 45.0, 'lock_rotation': False, 'max_tilt_deg': 30.0, 'workspace_bounds': [[0.0, 1.0], [-0.6, 0.6], [-0.2, 0.8]], 'adaptive': True}
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+Raw Jerk Score: 0.8181
+Repaired Jerk Score: 0.1039
+Constraint Violation Rate: 46.36%
+Constraint Policy Stats: {'translation_clip_rate': 0.95, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.8090909090909091, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.292627546495007, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.8181
+Current task avg repaired jerk: 0.1039
+Current task avg CVR: 46.36%
+Current total success rate: 0.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=2--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+Raw Jerk Score: 0.8535
+Repaired Jerk Score: 0.1428
+Constraint Violation Rate: 34.09%
+Constraint Policy Stats: {'translation_clip_rate': 0.9545454545454546, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.9272727272727272, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.25349451687408375, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.8535
+Current task avg repaired jerk: 0.1428
+Current task avg CVR: 34.09%
+Current total success rate: 0.0
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=3--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: False
+Raw Jerk Score: 0.6881
+Repaired Jerk Score: 0.1073
+Constraint Violation Rate: 49.55%
+Constraint Policy Stats: {'translation_clip_rate': 0.8409090909090909, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.5727272727272728, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.26515343828254695, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.6881
+Current task avg repaired jerk: 0.1073
+Current task avg CVR: 49.55%
+Current total success rate: 0.0
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=4--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: False
+Raw Jerk Score: 0.9367
+Repaired Jerk Score: 0.1397
+Constraint Violation Rate: 43.64%
+Constraint Policy Stats: {'translation_clip_rate': 0.9181818181818182, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.41363636363636364, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.2759223644896025, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.9367
+Current task avg repaired jerk: 0.1397
+Current task avg CVR: 43.64%
+Current total success rate: 0.0
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=5--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 0.6512
+Repaired Jerk Score: 0.1081
+Constraint Violation Rate: 38.64%
+Constraint Policy Stats: {'translation_clip_rate': 0.95, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.9636363636363636, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.28586044665730365, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.6512
+Current task avg repaired jerk: 0.1081
+Current task avg CVR: 38.64%
+Current total success rate: 0.0
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=6--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: False
+Raw Jerk Score: 0.5124
+Repaired Jerk Score: 0.0944
+Constraint Violation Rate: 86.82%
+Constraint Policy Stats: {'translation_clip_rate': 0.9363636363636364, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.37045555191130347, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.5124
+Current task avg repaired jerk: 0.0944
+Current task avg CVR: 86.82%
+Current total success rate: 0.0
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=7--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: False
+Raw Jerk Score: 0.4431
+Repaired Jerk Score: 0.0569
+Constraint Violation Rate: 59.55%
+Constraint Policy Stats: {'translation_clip_rate': 0.9681818181818181, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.43636363636363634, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.21118811021660874, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.4431
+Current task avg repaired jerk: 0.0569
+Current task avg CVR: 59.55%
+Current total success rate: 0.0
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=8--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: False
+Raw Jerk Score: 0.6200
+Repaired Jerk Score: 0.0959
+Constraint Violation Rate: 22.73%
+Constraint Policy Stats: {'translation_clip_rate': 0.85, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.7681818181818182, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.2642490314189591, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.6200
+Current task avg repaired jerk: 0.0959
+Current task avg CVR: 22.73%
+Current total success rate: 0.0
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=9--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: False
+Raw Jerk Score: 0.7639
+Repaired Jerk Score: 0.1065
+Constraint Violation Rate: 28.64%
+Constraint Policy Stats: {'translation_clip_rate': 0.9727272727272728, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 0.6863636363636364, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.27590238793002503, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.7639
+Current task avg repaired jerk: 0.1065
+Current task avg CVR: 28.64%
+Current total success rate: 0.0
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_25/2025_11_25-08_11_17--episode=10--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: False
+Raw Jerk Score: 0.6094
+Repaired Jerk Score: 0.0752
+Constraint Violation Rate: 0.00%
+Constraint Policy Stats: {'translation_clip_rate': 0.9545454545454546, 'rotation_clip_rate': 0.0, 'workspace_clip_rate': 1.0, 'tilt_correction_rate': 0.0, 'avg_translation_scaling': 0.30902229654396945, 'avg_rotation_scaling': 1.0}
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.6094
+Current task avg repaired jerk: 0.0752
+Current task avg CVR: 0.00%
+Current total success rate: 0.0
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 0.00%
+Average Raw Jerk Score: 0.6896
+Average Repaired Jerk Score: 0.1031 (lower is smoother)
+Jerk Improvement: 85.1%
+Average Constraint Violation Rate: 41.00%
+================================================================================

@@ -1,0 +1,88 @@
+Using constraint-aware policy with constraints: {'max_step_cm': 0.1, 'max_rotation_deg': 30.0, 'lock_rotation': False, 'max_tilt_deg': 30.0, 'workspace_bounds': [[0.1, 0.9], [-0.5, 0.5], [-0.1, 0.7]], 'adaptive': True}
+Task suite: libero_spatial
+Running 5 out of 10 tasks
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+Raw Jerk Score: 0.5428
+Repaired Jerk Score: 0.3334
+CVR: 15.47%
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.5428
+Current task avg repaired jerk: 0.3334
+Current task avg CVR: 15.47%
+Current total success rate: 1.0
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+Raw Jerk Score: 0.4113
+Repaired Jerk Score: 0.2534
+CVR: 18.66%
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.4113
+Current task avg repaired jerk: 0.2534
+Current task avg CVR: 18.66%
+Current total success rate: 1.0
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=3--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+Raw Jerk Score: 0.3735
+Repaired Jerk Score: 0.2466
+CVR: 15.00%
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Current task success rate: 1.0
+Current task avg raw jerk: 0.3735
+Current task avg repaired jerk: 0.2466
+Current task avg CVR: 15.00%
+Current total success rate: 1.0
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=4--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: False
+Raw Jerk Score: 0.2676
+Repaired Jerk Score: 0.1647
+CVR: 15.59%
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.2676
+Current task avg repaired jerk: 0.1647
+Current task avg CVR: 15.59%
+Current total success rate: 0.75
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_11_30/2025_11_30-08_46_18--episode=5--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+Raw Jerk Score: 0.6577
+Repaired Jerk Score: 0.4109
+CVR: 25.30%
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+Current task success rate: 0.0
+Current task avg raw jerk: 0.6577
+Current task avg repaired jerk: 0.4109
+Current task avg CVR: 25.30%
+Current total success rate: 0.6
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total Success Rate: 60.00%
+Average Raw Jerk Score: 0.4506
+Average Repaired Jerk Score: 0.2818 (lower is smoother)
+Jerk Improvement: 37.5%
+Average CVR: 18.00%
+================================================================================
